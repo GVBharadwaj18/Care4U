@@ -1,0 +1,58 @@
+{
+  "placeholderImages": [
+    {
+      "id": "city-general-hospital",
+      "description": "A modern hospital exterior",
+      "imageUrl": "https://images.unsplash.com/photo-1597807037496-c56a1d8bc29a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc3MDExODE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital building"
+    },
+    {
+      "id": "mercy-medical-center",
+      "description": "The entrance to a medical center",
+      "imageUrl": "https://images.unsplash.com/photo-1734535247588-aea2428394c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxob3NwaXRhbCUyMGVudHJhbmNlfGVufDB8fHx8MTc3MDEwMjQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital entrance"
+    },
+    {
+      "id": "st-jude-regional",
+      "description": "An aerial view of a large hospital campus",
+      "imageUrl": "https://images.unsplash.com/photo-1761940887604-337f812b1a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob3NwaXRhbCUyMGFlcmlhbHxlbnwwfHx8fDE3NzAxNDMxMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital aerial"
+    },
+    {
+      "id": "community-health-clinic",
+      "description": "A smaller, local community clinic building",
+      "imageUrl": "https://images.unsplash.com/photo-1643055420019-402d60ee19a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjbGluaWMlMjBidWlsZGluZ3xlbnwwfHx8fDE3NzAwMTk0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic building"
+    },
+    {
+      "id": "university-trauma-center",
+      "description": "A large university medical center",
+      "imageUrl": "https://images.unsplash.com/photo-1724485295817-e94ae2439fa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx1bml2ZXJzaXR5JTIwaG9zcGl0YWx8ZW58MHx8fHwxNzcwMTQzMTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university hospital"
+    },
+    {
+      "id": "river-valley-hospital",
+      "description": "A hospital in a scenic location",
+      "imageUrl": "https://images.unsplash.com/photo-1632729079440-f4747ab45eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aG9zcGl0YWwlMjBuYXR1cmV8ZW58MHx8fHwxNzcwMTQzMTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital nature"
+    },
+    {
+      "id": "mountain-view-general",
+      "description": "A hospital with mountains in the background",
+      "imageUrl": "https://images.unsplash.com/photo-1586773860417-e4514da4323b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3NwaXRhbCUyMG1vdW50YWlufGVufDB8fHx8MTc3MDQwMDAwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital mountain"
+    },
+    {
+      "id": "bayside-medical",
+      "description": "A medical center near the water",
+      "imageUrl": "https://images.unsplash.com/photo-1519494140681-8b40d6c757d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMHdhdGVyfGVufDB8fHx8MTc3MDQwMDAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital water"
+    },
+    {
+      "id": "suburban-general",
+      "description": "A hospital in a suburban neighborhood",
+      "imageUrl": "https://images.unsplash.com/photo-1616573356988-755d73c7886d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdWJ1cmJhbiUyMGhvc3BpdGFsfGVufDB8fHx8MTc3MDQwMDAwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "suburban hospital"
+    }
+  ]
+}
