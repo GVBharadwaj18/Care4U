@@ -204,7 +204,7 @@ export function VoiceAssistantModal({ children }: { children: React.ReactNode })
 
         <DialogFooter className="p-6 pt-4 border-t bg-background/80 backdrop-blur-sm">
           <div className="w-full flex items-center gap-2">
-             <Button variant="outline" onClick={startListening} disabled={status === 'listening'}>
+             <Button onClick={startListening} disabled={status === 'listening'} className="outline">
                 <Mic className="mr-2 h-4 w-4" /> Speak Again
             </Button>
             <form onSubmit={handleTypedSubmit} className="w-full flex items-center gap-2">
@@ -214,7 +214,7 @@ export function VoiceAssistantModal({ children }: { children: React.ReactNode })
                 onChange={(e) => setTypedQuery(e.target.value)}
                 disabled={status === 'processing'}
               />
-              <Button type="submit" size="icon" disabled={status === 'processing' || !typedQuery}>
+              <Button type="submit" className="h-10 w-10 p-0" disabled={status === 'processing' || !typedQuery}>
                 {status === 'processing' ? <Loader2 className="h-4 w-4 animate-spin" /> : <CornerDownLeft className="h-4 w-4" />}
               </Button>
             </form>

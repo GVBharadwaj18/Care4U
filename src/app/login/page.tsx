@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { LoginForm } from '@/components/auth/login-form';
 import { Logo } from '@/components/layout/logo';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertCircle, Shield } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-export default function Home() {
+export default function LoginPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="border-b bg-background/50 backdrop-blur-sm">
@@ -24,11 +24,11 @@ export default function Home() {
                 <div className="rounded-full bg-blue-100 p-3">
                   <Shield className="h-6 w-6 text-blue-600" />
                 </div>
-                <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">
                   Clarity in Crisis.
                 </h1>
               </div>
-              <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
+              <p className="max-w-[600px] text-lg text-muted-foreground">
                 Care4U helps you find the right hospital in a medical emergency. Get estimated wait times, check hospital capabilities, and use our AI voice assistant for stress-free searching.
               </p>
             </div>
@@ -83,9 +83,9 @@ export default function Home() {
           <div className="flex justify-center">
             <Card className="w-full max-w-md shadow-lg">
               <CardHeader className="space-y-1 pb-6">
-                <CardTitle className="font-headline text-2xl">Sign In</CardTitle>
+                <CardTitle className="text-2xl font-bold">Welcome Back</CardTitle>
                 <CardDescription>
-                  Access your dashboard to find emergency care.
+                  Sign in to access your medical profile and book appointments
                 </CardDescription>
               </CardHeader>
               <CardContent>

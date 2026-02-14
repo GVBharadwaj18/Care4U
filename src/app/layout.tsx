@@ -3,6 +3,7 @@ import { PT_Sans } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
+import { AuthProvider } from '@/hooks/auth-context';
 
 const ptSans = PT_Sans({
   subsets: ['latin'],
@@ -36,7 +37,9 @@ export default function RootLayout({
         />
       </head>
       <body className={cn('min-h-screen font-body antialiased bg-gradient-to-br from-accent/10 via-background to-primary/10', ptSans.variable)}>
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
         <Toaster />
       </body>
     </html>
